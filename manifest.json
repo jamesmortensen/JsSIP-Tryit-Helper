@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "exclude_matches": [  ],
+      "include_globs": [ "http://tryit.jssip.net*" ],
+      "js": [ "jssip-helper.user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Chrome Extension to remember the credentials in the JsSIP Try-It Demo.",
+   "name": "jssip-helper.user.js",
+   "version": "1.4",
+   "manifest_version": 2
+}
